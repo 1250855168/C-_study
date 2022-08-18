@@ -1,0 +1,3 @@
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build/CMakeFiles/a.out.dir
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build/CMakeFiles/edit_cache.dir
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Circle.h
+iostream
+-
+Point.h
+../include/Point.h
+
+../include/Point.h
+iostream
+-
+
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/main.cpp
+iostream
+-
+Point.h
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/Point.h
+Circle.h
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/Circle.h
+
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Circle.cpp
+Circle.h
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Circle.h
+
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Point.cpp
+Point.h
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Point.h
+

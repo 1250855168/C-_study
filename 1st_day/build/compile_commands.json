@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build",
+  "command": "G:\\Work_code\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/a.out.dir/includes_CXX.rsp -g   -o CMakeFiles\\a.out.dir\\src\\Circle.cpp.obj -c C:\\Users\\CHENMENG\\Desktop\\VScode\\VScode\\C++_study\\First_day\\src\\Circle.cpp",
+  "file": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Circle.cpp"
+},
+{
+  "directory": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build",
+  "command": "G:\\Work_code\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/a.out.dir/includes_CXX.rsp -g   -o CMakeFiles\\a.out.dir\\src\\Point.cpp.obj -c C:\\Users\\CHENMENG\\Desktop\\VScode\\VScode\\C++_study\\First_day\\src\\Point.cpp",
+  "file": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/src/Point.cpp"
+},
+{
+  "directory": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/build",
+  "command": "G:\\Work_code\\x86_64-8.1.0-release-win32-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe   @CMakeFiles/a.out.dir/includes_CXX.rsp -g   -o CMakeFiles\\a.out.dir\\main.cpp.obj -c C:\\Users\\CHENMENG\\Desktop\\VScode\\VScode\\C++_study\\First_day\\main.cpp",
+  "file": "C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/First_day/main.cpp"
+}
+]

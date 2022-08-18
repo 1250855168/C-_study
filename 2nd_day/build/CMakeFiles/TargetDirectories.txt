@@ -1,0 +1,2 @@
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/Scend_day/build/CMakeFiles/edit_cache.dir
+C:/Users/CHENMENG/Desktop/VScode/VScode/C++_study/Scend_day/build/CMakeFiles/rebuild_cache.dir
