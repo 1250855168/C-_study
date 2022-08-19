@@ -177,6 +177,114 @@ src/Worker_manger.cpp.s:
 	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.s
 .PHONY : src/Worker_manger.cpp.s
 
+src/boss.o: src/boss.cpp.o
+
+.PHONY : src/boss.o
+
+# target to build an object file
+src/boss.cpp.o:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/boss.cpp.o
+.PHONY : src/boss.cpp.o
+
+src/boss.i: src/boss.cpp.i
+
+.PHONY : src/boss.i
+
+# target to preprocess a source file
+src/boss.cpp.i:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/boss.cpp.i
+.PHONY : src/boss.cpp.i
+
+src/boss.s: src/boss.cpp.s
+
+.PHONY : src/boss.s
+
+# target to generate assembly for a file
+src/boss.cpp.s:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/boss.cpp.s
+.PHONY : src/boss.cpp.s
+
+src/employee.o: src/employee.cpp.o
+
+.PHONY : src/employee.o
+
+# target to build an object file
+src/employee.cpp.o:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/employee.cpp.o
+.PHONY : src/employee.cpp.o
+
+src/employee.i: src/employee.cpp.i
+
+.PHONY : src/employee.i
+
+# target to preprocess a source file
+src/employee.cpp.i:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/employee.cpp.i
+.PHONY : src/employee.cpp.i
+
+src/employee.s: src/employee.cpp.s
+
+.PHONY : src/employee.s
+
+# target to generate assembly for a file
+src/employee.cpp.s:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/employee.cpp.s
+.PHONY : src/employee.cpp.s
+
+src/manger.o: src/manger.cpp.o
+
+.PHONY : src/manger.o
+
+# target to build an object file
+src/manger.cpp.o:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/manger.cpp.o
+.PHONY : src/manger.cpp.o
+
+src/manger.i: src/manger.cpp.i
+
+.PHONY : src/manger.i
+
+# target to preprocess a source file
+src/manger.cpp.i:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/manger.cpp.i
+.PHONY : src/manger.cpp.i
+
+src/manger.s: src/manger.cpp.s
+
+.PHONY : src/manger.s
+
+# target to generate assembly for a file
+src/manger.cpp.s:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/manger.cpp.s
+.PHONY : src/manger.cpp.s
+
+src/work.o: src/work.cpp.o
+
+.PHONY : src/work.o
+
+# target to build an object file
+src/work.cpp.o:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/work.cpp.o
+.PHONY : src/work.cpp.o
+
+src/work.i: src/work.cpp.i
+
+.PHONY : src/work.i
+
+# target to preprocess a source file
+src/work.cpp.i:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/work.cpp.i
+.PHONY : src/work.cpp.i
+
+src/work.s: src/work.cpp.s
+
+.PHONY : src/work.s
+
+# target to generate assembly for a file
+src/work.cpp.s:
+	$(MAKE) -f CMakeFiles/Worker_manger.dir/build.make CMakeFiles/Worker_manger.dir/src/work.cpp.s
+.PHONY : src/work.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +300,18 @@ help:
 	@echo "... src/Worker_manger.o"
 	@echo "... src/Worker_manger.i"
 	@echo "... src/Worker_manger.s"
+	@echo "... src/boss.o"
+	@echo "... src/boss.i"
+	@echo "... src/boss.s"
+	@echo "... src/employee.o"
+	@echo "... src/employee.i"
+	@echo "... src/employee.s"
+	@echo "... src/manger.o"
+	@echo "... src/manger.i"
+	@echo "... src/manger.s"
+	@echo "... src/work.o"
+	@echo "... src/work.i"
+	@echo "... src/work.s"
 .PHONY : help
 
 

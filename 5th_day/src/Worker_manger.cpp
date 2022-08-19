@@ -18,7 +18,13 @@ void Worker_manger::ShowMenue()
     cout << "**************************************" << endl;
 }
 
+void Worker_manger::Exit()
+{
+    cout<<"欢迎下次使用！"<<endl;
+    exit(0);
+}
+
 Worker_manger::~Worker_manger()
 {
-    
+
 }

@@ -9,10 +9,28 @@ class Worker_manger
 {
 
 public:
+/**
+ * @brief 析构函数
+ * 
+ */
     Worker_manger();
-//展示菜单
+    
+/**
+ * @brief 展示菜单
+ * 
+ */
     void ShowMenue();
 
+/**
+ * @brief 退出系统
+ * 
+ */
+    void Exit();
+
+/**
+ * @brief 虚构函数
+ * 
+ */
     ~Worker_manger();
 };
 

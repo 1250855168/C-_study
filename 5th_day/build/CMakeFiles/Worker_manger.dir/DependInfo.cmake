@@ -6,6 +6,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/Me/Cpp_study/5th_day/main.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/main.cpp.o"
   "/home/Me/Cpp_study/5th_day/src/Worker_manger.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o"
+  "/home/Me/Cpp_study/5th_day/src/boss.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/src/boss.cpp.o"
+  "/home/Me/Cpp_study/5th_day/src/employee.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/src/employee.cpp.o"
+  "/home/Me/Cpp_study/5th_day/src/manger.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/src/manger.cpp.o"
+  "/home/Me/Cpp_study/5th_day/src/work.cpp" "/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir/src/work.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

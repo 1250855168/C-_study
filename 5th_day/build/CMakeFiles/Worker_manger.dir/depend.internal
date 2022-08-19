@@ -3,7 +3,25 @@
 
 CMakeFiles/Worker_manger.dir/main.cpp.o
  ../include/Worker_manger.h
+ ../include/boss.h
+ ../include/employee.h
+ ../include/manger.h
+ ../include/work.h
  /home/Me/Cpp_study/5th_day/main.cpp
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o
  ../include/Worker_manger.h
  /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
+CMakeFiles/Worker_manger.dir/src/boss.cpp.o
+ ../include/boss.h
+ ../include/work.h
+ /home/Me/Cpp_study/5th_day/src/boss.cpp
+CMakeFiles/Worker_manger.dir/src/employee.cpp.o
+ ../include/employee.h
+ ../include/work.h
+ /home/Me/Cpp_study/5th_day/src/employee.cpp
+CMakeFiles/Worker_manger.dir/src/manger.cpp.o
+ ../include/manger.h
+ ../include/work.h
+ /home/Me/Cpp_study/5th_day/src/manger.cpp
+CMakeFiles/Worker_manger.dir/src/work.cpp.o
+ /home/Me/Cpp_study/5th_day/src/work.cpp
