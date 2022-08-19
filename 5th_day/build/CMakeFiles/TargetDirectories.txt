@@ -1,0 +1,3 @@
+/home/Me/Cpp_study/5th_day/build/CMakeFiles/rebuild_cache.dir
+/home/Me/Cpp_study/5th_day/build/CMakeFiles/edit_cache.dir
+/home/Me/Cpp_study/5th_day/build/CMakeFiles/Worker_manger.dir

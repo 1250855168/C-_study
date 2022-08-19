@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Worker_manger.dir/main.cpp.o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o  -o Worker_manger 
