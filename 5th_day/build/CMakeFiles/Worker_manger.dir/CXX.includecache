@@ -46,22 +46,6 @@ string
 iostream
 -
 
-/home/Me/Cpp_study/5th_day/main.cpp
-iostream
--
-string
--
-Worker_manger.h
-/home/Me/Cpp_study/5th_day/Worker_manger.h
-work.h
-/home/Me/Cpp_study/5th_day/work.h
-manger.h
-/home/Me/Cpp_study/5th_day/manger.h
-employee.h
-/home/Me/Cpp_study/5th_day/employee.h
-boss.h
-/home/Me/Cpp_study/5th_day/boss.h
-
 /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
 Worker_manger.h
 /home/Me/Cpp_study/5th_day/src/Worker_manger.h

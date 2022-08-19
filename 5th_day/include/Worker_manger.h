@@ -2,7 +2,7 @@
 
 #include <string>
 #include <iostream>
-#include<fstream>
+#include <fstream>
 
 using namespace std;
 
@@ -48,6 +48,19 @@ public:
      *
      */
     void Save();
+
+    //判断文件是否为空
+    bool IsFileEmpty;
+    /**
+     * @brief已有职工的个数
+     *
+     */
+    int Number_Employees();
+    /**
+     * @brief初始化成员列表
+     *
+     */
+    void Init_emp();
 
     /**
      * @brief 虚构函数
