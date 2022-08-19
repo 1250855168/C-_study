@@ -60,80 +60,80 @@ include CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/main.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Worker_manger.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/main.cpp.o -c /home/Me/Cpp_study/5th_day/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/main.cpp.o -c /home/Me/Cpp_study/5th_day/main.cpp
 
 CMakeFiles/Worker_manger.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/main.cpp > CMakeFiles/Worker_manger.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/main.cpp > CMakeFiles/Worker_manger.dir/main.cpp.i
 
 CMakeFiles/Worker_manger.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/main.cpp -o CMakeFiles/Worker_manger.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/main.cpp -o CMakeFiles/Worker_manger.dir/main.cpp.s
 
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../src/Worker_manger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
 
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp > CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp > CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.i
 
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp -o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp -o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.s
 
 CMakeFiles/Worker_manger.dir/src/boss.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/src/boss.cpp.o: ../src/boss.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Worker_manger.dir/src/boss.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/boss.cpp.o -c /home/Me/Cpp_study/5th_day/src/boss.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/boss.cpp.o -c /home/Me/Cpp_study/5th_day/src/boss.cpp
 
 CMakeFiles/Worker_manger.dir/src/boss.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/src/boss.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/boss.cpp > CMakeFiles/Worker_manger.dir/src/boss.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/boss.cpp > CMakeFiles/Worker_manger.dir/src/boss.cpp.i
 
 CMakeFiles/Worker_manger.dir/src/boss.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/src/boss.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/boss.cpp -o CMakeFiles/Worker_manger.dir/src/boss.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/boss.cpp -o CMakeFiles/Worker_manger.dir/src/boss.cpp.s
 
 CMakeFiles/Worker_manger.dir/src/employee.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/src/employee.cpp.o: ../src/employee.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Worker_manger.dir/src/employee.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/employee.cpp.o -c /home/Me/Cpp_study/5th_day/src/employee.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/employee.cpp.o -c /home/Me/Cpp_study/5th_day/src/employee.cpp
 
 CMakeFiles/Worker_manger.dir/src/employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/src/employee.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/employee.cpp > CMakeFiles/Worker_manger.dir/src/employee.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/employee.cpp > CMakeFiles/Worker_manger.dir/src/employee.cpp.i
 
 CMakeFiles/Worker_manger.dir/src/employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/src/employee.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/employee.cpp -o CMakeFiles/Worker_manger.dir/src/employee.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/employee.cpp -o CMakeFiles/Worker_manger.dir/src/employee.cpp.s
 
 CMakeFiles/Worker_manger.dir/src/manger.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/src/manger.cpp.o: ../src/manger.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Worker_manger.dir/src/manger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/manger.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/manger.cpp
 
 CMakeFiles/Worker_manger.dir/src/manger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/src/manger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/manger.cpp > CMakeFiles/Worker_manger.dir/src/manger.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/manger.cpp > CMakeFiles/Worker_manger.dir/src/manger.cpp.i
 
 CMakeFiles/Worker_manger.dir/src/manger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/src/manger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/manger.cpp -o CMakeFiles/Worker_manger.dir/src/manger.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/manger.cpp -o CMakeFiles/Worker_manger.dir/src/manger.cpp.s
 
 CMakeFiles/Worker_manger.dir/src/work.cpp.o: CMakeFiles/Worker_manger.dir/flags.make
 CMakeFiles/Worker_manger.dir/src/work.cpp.o: ../src/work.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Me/Cpp_study/5th_day/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Worker_manger.dir/src/work.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/work.cpp.o -c /home/Me/Cpp_study/5th_day/src/work.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Worker_manger.dir/src/work.cpp.o -c /home/Me/Cpp_study/5th_day/src/work.cpp
 
 CMakeFiles/Worker_manger.dir/src/work.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Worker_manger.dir/src/work.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/work.cpp > CMakeFiles/Worker_manger.dir/src/work.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Me/Cpp_study/5th_day/src/work.cpp > CMakeFiles/Worker_manger.dir/src/work.cpp.i
 
 CMakeFiles/Worker_manger.dir/src/work.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Worker_manger.dir/src/work.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/work.cpp -o CMakeFiles/Worker_manger.dir/src/work.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Me/Cpp_study/5th_day/src/work.cpp -o CMakeFiles/Worker_manger.dir/src/work.cpp.s
 
 # Object files for target Worker_manger
 Worker_manger_OBJECTS = \

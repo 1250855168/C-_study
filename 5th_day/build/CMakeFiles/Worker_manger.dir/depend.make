@@ -9,6 +9,10 @@ CMakeFiles/Worker_manger.dir/main.cpp.o: ../include/work.h
 CMakeFiles/Worker_manger.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../include/Worker_manger.h
+CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../include/boss.h
+CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../include/employee.h
+CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../include/manger.h
+CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../include/work.h
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o: ../src/Worker_manger.cpp
 
 CMakeFiles/Worker_manger.dir/src/boss.cpp.o: ../include/boss.h

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/main.cpp.o -c /home/Me/Cpp_study/5th_day/main.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/main.cpp"
+},
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/src/Worker_manger.cpp"
+},
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/src/boss.cpp.o -c /home/Me/Cpp_study/5th_day/src/boss.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/src/boss.cpp"
+},
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/src/employee.cpp.o -c /home/Me/Cpp_study/5th_day/src/employee.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/src/employee.cpp"
+},
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/src/manger.cpp.o -c /home/Me/Cpp_study/5th_day/src/manger.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/src/manger.cpp"
+},
+{
+  "directory": "/home/Me/Cpp_study/5th_day/build",
+  "command": "/usr/bin/g++   -I/home/Me/Cpp_study/5th_day/include  -g   -o CMakeFiles/Worker_manger.dir/src/work.cpp.o -c /home/Me/Cpp_study/5th_day/src/work.cpp",
+  "file": "/home/Me/Cpp_study/5th_day/src/work.cpp"
+}
+]

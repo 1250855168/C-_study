@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+../include/Worker_manger.h
+string
+-
+iostream
+-
+fstream
+-
+work.h
+../include/work.h
+manger.h
+../include/manger.h
+employee.h
+../include/employee.h
+boss.h
+../include/boss.h
+
 ../include/boss.h
 iostream
 -
@@ -30,15 +46,23 @@ string
 iostream
 -
 
-/home/Me/Cpp_study/5th_day/src/boss.cpp
-boss.h
-/home/Me/Cpp_study/5th_day/src/boss.h
-
-/home/Me/Cpp_study/5th_day/src/employee.cpp
-employee.h
-/home/Me/Cpp_study/5th_day/src/employee.h
-
-/home/Me/Cpp_study/5th_day/src/manger.cpp
+/home/Me/Cpp_study/5th_day/main.cpp
+iostream
+-
+string
+-
+Worker_manger.h
+/home/Me/Cpp_study/5th_day/Worker_manger.h
+work.h
+/home/Me/Cpp_study/5th_day/work.h
 manger.h
-/home/Me/Cpp_study/5th_day/src/manger.h
+/home/Me/Cpp_study/5th_day/manger.h
+employee.h
+/home/Me/Cpp_study/5th_day/employee.h
+boss.h
+/home/Me/Cpp_study/5th_day/boss.h
+
+/home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
+Worker_manger.h
+/home/Me/Cpp_study/5th_day/src/Worker_manger.h
 

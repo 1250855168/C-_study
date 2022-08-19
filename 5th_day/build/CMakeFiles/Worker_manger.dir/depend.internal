@@ -10,6 +10,10 @@ CMakeFiles/Worker_manger.dir/main.cpp.o
  /home/Me/Cpp_study/5th_day/main.cpp
 CMakeFiles/Worker_manger.dir/src/Worker_manger.cpp.o
  ../include/Worker_manger.h
+ ../include/boss.h
+ ../include/employee.h
+ ../include/manger.h
+ ../include/work.h
  /home/Me/Cpp_study/5th_day/src/Worker_manger.cpp
 CMakeFiles/Worker_manger.dir/src/boss.cpp.o
  ../include/boss.h
