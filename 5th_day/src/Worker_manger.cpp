@@ -40,8 +40,9 @@ Worker_manger::Worker_manger()
     {
         this->Array[i]->ShowInfo();
     }
-    
+    ifs.close();   
 }
+
 //展示菜单
 void Worker_manger::ShowMenue()
 {
@@ -58,7 +59,7 @@ void Worker_manger::ShowMenue()
 void Worker_manger::Exit()
 {
     cout << "欢迎下次使用！" << endl;
-    exit(0);
+    return;
 }
 
 void Worker_manger::Add()
@@ -172,7 +173,7 @@ void Worker_manger::Init_emp()
 
     ifstream ifs;
     ifs.open(FILENAME, ios::in);
-    while (ifs >> id && ifs >> name && ifs >> Identity)
+    while (ifs >> id && ifs >> name && ifs >> Identity)//读数据不读空格 它会自动往前读 用>>  @如果用getlen 直接包含一行有空格
     {
         Work *worker = nullptr;
         if (Identity == "普通员工")
@@ -196,7 +197,12 @@ Worker_manger::~Worker_manger()
 {
     if (this->Array != nullptr)
     {
-        delete[] this->Array;
-        this->Array = nullptr;
+        for (size_t i = 0; i < this->number; i++)
+        {
+            delete this->Array[i];
+            this->Array[i]=nullptr;
+        }
+        delete [] Array;
+        Array=nullptr;
     }
 }

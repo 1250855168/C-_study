@@ -9,12 +9,13 @@ using namespace std;
 #include "employee.h"
 #include "boss.h"
 
+//valgrind  --tool=memcheck --leak-check=yes ./可执行文件
 int main()
 {
 
     Worker_manger x;
-    int choose;
-    while (true)
+    int choose=1;
+    while (choose)
     {
         x.ShowMenue(); //展示菜单
         cout << "请选择:";
