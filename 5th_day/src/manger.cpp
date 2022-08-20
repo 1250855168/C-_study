@@ -1,4 +1,5 @@
 #include "manger.h"
+#include<iomanip>
 
 Manger::Manger(string name, int id, string Identity)
 {
@@ -9,10 +10,10 @@ Manger::Manger(string name, int id, string Identity)
 
 void Manger::ShowInfo()
 {
-    cout << "编号:" << this->id
-         << "\t姓名:" << this->name
-         << "\t身份:" << this->Identity
-         << "\t职责:" << this->GetDuty() << endl;
+    cout << "编号:" << setw(12) << left<< this->id
+         << "姓名:"<< setw(12) << left << this->name
+         << "身份:" << setw(12) << left<< this->Identity
+         << "职责:" << this->GetDuty() << endl;
 }
 
 string Manger::GetDuty()

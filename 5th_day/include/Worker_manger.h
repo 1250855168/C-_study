@@ -43,6 +43,7 @@ public:
      *
      */
     void Add();
+
     /**
      * @brief 保存信息
      *
@@ -51,16 +52,60 @@ public:
 
     //判断文件是否为空
     bool IsFileEmpty;
+
     /**
      * @brief已有职工的个数
      *
      */
     int Number_Employees();
+
     /**
      * @brief初始化成员列表
      *
      */
     void Init_emp();
+
+    /**
+     * @brief 删除职工
+     *
+     */
+    void Delete();
+
+    /**
+     * @brief 判断是否有这个职工 如果职工存在返回他的编号 否则返回-1
+     *
+     */
+    int Is_Employee(int x);
+
+    /**
+     * @brief 修改职工信息
+     *
+     */
+    void Modify();
+
+    /**
+     * @brief 通过Id查找个人信息
+     *
+     */
+    void Find();
+
+    /**
+     * @brief 展示全部人的信息
+     *
+     */
+    void Show();
+
+    /**
+     * @brief 按成员编号排序
+     *
+     */
+    void Sort();
+
+    /**
+     * @brief 清空数据
+     *
+     */
+    void Clear();
 
     /**
      * @brief 虚构函数

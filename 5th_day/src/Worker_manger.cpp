@@ -36,11 +36,7 @@ Worker_manger::Worker_manger()
     this->Array = new Work *[this->number];
     Init_emp();
 
-    for (size_t i = 0; i < this->number; i++)
-    {
-        this->Array[i]->ShowInfo();
-    }
-    ifs.close();   
+    ifs.close();
 }
 
 //展示菜单
@@ -173,7 +169,7 @@ void Worker_manger::Init_emp()
 
     ifstream ifs;
     ifs.open(FILENAME, ios::in);
-    while (ifs >> id && ifs >> name && ifs >> Identity)//读数据不读空格 它会自动往前读 用>>  @如果用getlen 直接包含一行有空格
+    while (ifs >> id && ifs >> name && ifs >> Identity) //读数据不读空格 它会自动往前读 用>>  @如果用getlen 直接包含一行有空格
     {
         Work *worker = nullptr;
         if (Identity == "普通员工")
@@ -188,21 +184,178 @@ void Worker_manger::Init_emp()
         {
             worker = new Boss(name, id, "老板");
         }
-        this->Array[index++]=worker;
+        this->Array[index++] = worker;
     }
     ifs.close();
 }
 
+int Worker_manger::Is_Employee(int x)
+{
+    if (this->IsFileEmpty)
+    {
+        cout << "没有这个文件,或者文件为空,员工不存在！" << endl;
+        return -1;
+    }
+    else
+    {
+        for (size_t i = 0; i < this->number; i++)
+        {
+            if (this->Array[i]->id == x)
+            {
+                return x;
+            }
+        }
+        return -1;
+    }
+}
+
+void Worker_manger::Delete()
+{
+    cout << "please input this employee number!" << endl;
+    int number;
+    cin >> number;
+    int ret = Is_Employee(number);
+    if (ret != -1)
+    {
+        delete this->Array[ret];
+        this->Array[ret] = nullptr;
+        for (size_t i = ret; i < this->number - 1; i++)
+        {
+            this->Array[i] = this->Array[i + 1];
+        }
+
+        this->number--;
+    }
+}
+
+void Worker_manger::Modify()
+{
+    cout << "please input this employee number!" << endl;
+    int number;
+    cin >> number;
+    int ret = Is_Employee(number);
+    if (ret != -1)
+    {
+
+        cout << "please input new id" << endl;
+        int NewId;
+        cin >> NewId;
+        cout << "please input new name" << endl;
+        string NewName;
+        cin >> NewName;
+        cout << "please input new identity" << endl;
+        string NewIdentity;
+        cin >> NewIdentity;
+        this->Array[ret]->id = NewId;
+        this->Array[ret]->name = NewName;
+        this->Array[ret]->Identity = NewIdentity;
+    }
+}
+
+void Worker_manger::Find()
+{
+    cout << "please input this employee number!" << endl;
+    int number;
+    cin >> number;
+    int ret = Is_Employee(number);
+    if (ret != -1)
+    {
+        this->Array[ret]->ShowInfo();
+    }
+}
+
+void Worker_manger::Show()
+{
+    if (this->IsFileEmpty)
+    {
+        cout << "No anything informations" << endl;
+        return;
+    }
+    else
+    {
+        for (size_t i = 0; i < this->number; i++)
+        {
+            this->Array[i]->ShowInfo();
+        }
+    }
+}
+
+void Worker_manger::Sort()
+{
+    cout << "1:From-Small-To-Large" << endl;
+    cout << "2:From-Large-To-Small" << endl;
+    cout << "please input choice:";
+    int ret = 0;
+    cin >> ret;
+    if (ret == 2)
+    {
+        for (size_t i = 0; i < this->number - 1; i++)
+        {
+            int x = i;
+            for (size_t j = i; j < this->number; j++)
+            {
+                if (this->Array[x]->id < this->Array[j]->id)
+                {
+                    int temp = this->Array[x]->id;
+                    this->Array[x]->id = this->Array[j]->id;
+                    this->Array[j]->id = temp;
+                }
+            }
+        }
+    }
+    if (ret == 1)
+    {
+        for (size_t i = 0; i < this->number - 1; i++)
+        {
+            int x = i;
+            for (size_t j = i; j < this->number; j++)
+            {
+                if (this->Array[x]->id > this->Array[j]->id)
+                {
+                    int temp = this->Array[x]->id;
+                    this->Array[x]->id = this->Array[j]->id;
+                    this->Array[j]->id = temp;
+                }
+            }
+        }
+    }
+}
+
+void Worker_manger::Clear()
+{
+    cout << "Y?N" << endl;
+    char ch;
+    cin >> ch;
+    if (ch == 'Y')
+    {
+        ofstream ofs(FILENAME, ios::trunc);
+        ofs.close();
+        if (this->Array != nullptr)
+        {
+            for (size_t i = 0; i < this->number; i++)
+            {
+                delete this->Array[i];
+                this->Array[i] = nullptr;
+            }
+            delete[] Array;
+            Array = nullptr;
+        }
+    }
+}
+
 Worker_manger::~Worker_manger()
 {
+    ofstream ofs(FILENAME, ios::trunc);
+    ofs.close();
+    this->Save();
     if (this->Array != nullptr)
     {
         for (size_t i = 0; i < this->number; i++)
         {
             delete this->Array[i];
-            this->Array[i]=nullptr;
+            this->Array[i] = nullptr;
         }
-        delete [] Array;
-        Array=nullptr;
+        delete[] Array;
+        Array = nullptr;
     }
 }
