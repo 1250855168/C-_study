@@ -13,6 +13,16 @@ void print_list(list<int> &l)
     cout << endl;
 }
 
+class my_compare
+{
+
+public:
+    bool operator()(int a, int b)
+    {
+        return a > b;
+    }
+};
+
 int main()
 {
     // list构造函数
@@ -63,13 +73,13 @@ int main()
     //     l.resize(10,100);
     // }
 
-    //list插入与删除
-    // list<int>l;
-    // l.push_back(30);
-    // l.push_back(40);
-    // l.push_front(20);
-    // l.push_front(10);
-    // print_list(l);
+    // list插入与删除
+    //  list<int>l;
+    //  l.push_back(30);
+    //  l.push_back(40);
+    //  l.push_front(20);
+    //  l.push_front(10);
+    //  print_list(l);
 
     // l.pop_back();
     // print_list(l);
@@ -82,7 +92,6 @@ int main()
     // it = l.end();
     // l.insert(it,40);
     // print_list(l);
-
 
     // l.erase(--it);
     // print_list(l);
@@ -97,9 +106,24 @@ int main()
     // cout<<l.front()<<endl;//ok
     // cout<<l.back()<<endl;//ok
 
-    //list排序 反转
-    
-   
+    // list排序 反转
+    list<int> l;
+    l.push_back(10);
+    l.push_back(20);
+    l.push_back(30);
+    l.push_back(40);
+
+    print_list(l);
+
+    l.reverse();
+    print_list(l);
+
+    l.sort();
+    print_list(l);
+
+    l.sort(my_compare());
+    print_list(l);
+
     getchar();
     system("clear");
     return 0;
