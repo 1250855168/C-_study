@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xxx/Me/Cpp_study/19th_day/build",
+  "command": "/usr/bin/g++   -I/home/xxx/Me/Cpp_study/19th_day/include  -g   -o CMakeFiles/speech_manager.dir/main.cpp.o -c /home/xxx/Me/Cpp_study/19th_day/main.cpp",
+  "file": "/home/xxx/Me/Cpp_study/19th_day/main.cpp"
+}
+]
